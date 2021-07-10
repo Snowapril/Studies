@@ -62,6 +62,8 @@
 배포: 타겟 머신이나 저장소로 전송하는 행위
 
 Delivery? Deployment?
+* Delivery : 배달, 사용자가 쓸수있게 공개된곳에 올려놓는다
+* Deployment : Delivery한것을 사용자가 들고갔을때, 사용자환경에 갔을 때
 
 #### CMake의 역할
 
@@ -71,7 +73,7 @@ Delivery? Deployment?
 
 ### CMake CLI 살펴보기
 
-#### 버전 확인
+#### 버전 확인  
 
 ```console
 $ cmake --version
